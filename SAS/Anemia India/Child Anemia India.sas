@@ -1,13 +1,17 @@
 
+* Importing SPSS format file into SAS;
+
 PROC IMPORT OUT= WORK.anemia 
-DATAFILE= "C:\Users\Raheem\Documents\MyFolder\UNCO\Research\Sanku Dey India\Child Anaemia India\CHILD ANEMIA NORTH EAST_hemo.sav" 
+DATAFILE= "data.sav" 
 DBMS=SPSS REPLACE;
 RUN;
 
+* View the contents of the data;
+* Shows variables and their types;
 proc contents;
 run;
 
-
+* Print first 10 obs of the data;
 proc print data = anemia (obs=10);
 run;
 
@@ -37,9 +41,11 @@ hemo='hemoglobin level'
 yschool_cat='Year of schooling (cat)';
 run;
 
+* Display the data contents again;
 proc contents data=anemia;
 run;
 
+* Do some cross tabs;
 proc freq data=anemia;
 table state*agey;
 run;
