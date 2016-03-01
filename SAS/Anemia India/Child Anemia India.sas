@@ -1,3 +1,9 @@
+/*
+The purpose of this file is to prepare the data for analysis
+using hierarchical multiple logistic regression with 
+polytomous outcome variable;
+
+*/
 
 * Importing SPSS format file into SAS;
 
