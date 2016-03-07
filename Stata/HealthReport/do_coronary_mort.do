@@ -1,7 +1,7 @@
 /*
 File Name	:	do_coronary_mort.do
 Created by	:	Enayetur Raheem
-Position	:	Data Analyst, WECHU
+Position	:	Data Analyst
 Date		:	July 19, 2012
 Location	: 	\\dataserv\mydocs\eraheem\mystata\env2012
 Use			: 	Data is for analysis

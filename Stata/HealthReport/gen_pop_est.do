@@ -1,7 +1,7 @@
 /*
 File Name	:	gen_pop_est.do
 Created by	:	Enayetur Raheem
-Position	:	Data Analyst, WECHU
+Position	:	Data Analyst
 Date		:	Feb 3, 2012
 Location	: 	\\dataserv\mydocs\eraheem\mystata\env2012
 Use			: 	Population estimates are needed to calculate the rates
