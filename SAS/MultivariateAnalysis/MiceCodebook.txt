@@ -1,0 +1,15 @@
+Codebook for Mice Data (Mice.txt)
+
+Variable Name          Variable Coding            Variable Description
+----------------------------------------------------------------------
+ID                                                Mouse Identifier
+
+
+DAY                    2,5,8,11,14,17, or 20      Day of Measurement
+
+
+GROUP                  3 or 4                     Group Identifier
+
+
+WEIGHT                 continuous                 Weight
+

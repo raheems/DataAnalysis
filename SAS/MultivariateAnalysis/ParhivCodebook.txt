@@ -1,0 +1,304 @@
+Codebook for Parental HIV data (Parhiv.txt)
+
+Variable    Variable
+Name        Coding                                      Description
+-------------------------------------------------------------------------------
+ID          1 to 252                                    Identifier
+
+AGE         Continuous                                  Age at baseline
+
+GENDER      1 = Male                                    Gender
+            2 = Female
+
+LIVWITH     1 = Both parents                            Currently living with?
+            2 = One parent
+            3 = Other
+
+SIBLINGS    1 = No                                      Siblings
+            2 = Yes
+
+JOBMO       1 = Employed                                Mother's job status
+            2 = Unemployed
+            3 = Retired/Disabled
+
+EDUMO       1 = Did not complete high school            Mother's education
+            2 = High school diploma/GED
+            3 = More than high school diploma
+
+HOWREL      1 = Very religious or spiritual             How religious or
+            2 = Somewhat religious or spiritual         spiritual do you
+            3 = Not at all religious or spiritual       consider yourself to be
+
+ATTSERV     1 = Never                                   Attendance of religious
+            2 = Sometimes                               services in the past
+            3 = Frequently                              three months
+
+NGHB1       1 = Not a problem at all                    Neighborhood:Litter or
+            2 = Somewhat of a problem                   trash on the sidewalks
+            3 = Quite a problem                         and street
+            4 = Very serious problem
+
+NGHB2       1 = Not a problem at all                    Neighborhood:Drug
+            2 = Somewhat of a problem                   addicts in the
+            3 = Quite a problem                         neighborhood
+            4 = Very serious problem
+
+NGHB3       1 = Not a problem at all                    Neighborhood:Vacant or
+            2 = Somewhat of a problem                   abandoned houses or
+            3 = Quite a problem                         storefronts
+            4 = Very serious problem
+
+NGHB4       1 = Not a problem at all                    Neighborhood:Unemployed
+            2 = Somewhat of a problem                   people hanging out in
+            3 = Quite a problem                         the streets
+            4 = Very serious problem
+
+NGHB5       1 = Not a problem at all                    Neighborhood:Youth gang
+            2 = Somewhat of a problem                   fights
+            3 = Quite a problem
+            4 = Very serious problem
+
+NGHB6       1 = Not a problem at all                    Neighborhood:Violence
+            2 = Somewhat of a problem                   and violent crime
+            3 = Quite a problem
+            4 = Very serious problem
+
+NGHB7       1 = Not a problem at all                    Neighborhood:Theft
+            2 = Somewhat of a problem
+            3 = Quite a problem
+            4 = Very serious problem
+
+NGHB8       1 = Not a problem at all                    Neighborhood:Drug
+            2 = Somewhat of a problem                   dealing
+            3 = Quite a problem
+            4 = Very serious problem
+
+NGHB9       1 = Not a problem at all                    Neighborhood:
+            2 = Somewhat of a problem                   Homelessness
+            3 = Quite a problem
+            4 = Very serious problem
+
+NGHB10      1 = Not a problem at all                    Neighborhood:
+            2 = Somewhat of a problem                   Vandalism
+            3 = Quite a problem
+            4 = Very serious problem
+
+NGHB11      1 = Not a problem at all                    Neighborhood: Drinking
+            2 = Somewhat of a problem                   in public
+            3 = Quite a problem
+            4 = Very serious problem
+
+MONFOOD     1 = No                                      Enough money every day
+            2 = Sometimes                               to eat three well-
+            3 = Yes                                     balanced meals if you
+                                                        want to eat them
+
+FINSIT      1 = Very poor, struggling to survive        Financial situation of
+            2 = Poor, barely paying the bills           household
+            3 = Have the necessities
+            4 = Comfortable
+
+ETHN        1 = Latino/a or Hispanic                    Ethnicity
+            2 = Black, but not Latino/a or Hispanic
+            3 = Other
+
+AGESMOKE    Continuous                                  Age started smoking
+            0 = not yet started
+
+SMOKEP3M    1 = Less than one cigarette a day           Past three months
+            2 = One to 5 cigarettes a day               average smoking
+            3 = About ½ pack a day (6-15)
+            4 = About a pack a day (16-25)
+            5 = About 1 ½ packs a day (26-35)
+            6 = About 2 packs or more a day (over 35)
+            8 = not smoked in past 3 months
+
+AGEALC      Continuous                                  Age first had alcohol
+            0 = Not yet started
+
+AGEMAR      Continuous                                  Age first had marijuana
+            0 = Not yet started
+
+FRNDS       1 = A group of good friends                 Describe friendships
+            2 = 1 or 2 good friends,lots acquaintances  overall
+            3 = 1 or 2 good friends,less acquaintances
+            4 = Not close to anyone
+
+SCHOOL      1 = No                                      Currently attending
+            2 = Yes                                     school
+
+LIKESCH     1 = Like(d) it very much                    How much like(d) school
+            2 = Like(d) it somewhat
+            3 = Like(d) it and dislike(d) it equally
+            4 = Dislike(d) it somewhat
+            5 = Dislike(d) it very much
+
+HOOKEY      1 = No                                      Played hookey?
+            2 = Yes
+
+NHOOKEY     Continuous                                  Number of days absent
+                                                        from school without a
+                                                        reason.
+                                                        Note: This variable was
+                                                        generated by the
+                                                        authors and was not
+                                                        part of the original
+                                                        study.
+
+HMONTH      1 = 1 Months                                Referent time for
+            3 = 3 Months                                NHOOKEY.
+                                                        Note: This variable was
+                                                        generated by the
+                                                        authors and was not
+                                                        part of the original
+                                                        study.
+
+PB01 - PB25 1 = Very unlike                             Parental Bonding scale
+            2 = Somewhat unlike
+            3 = Somewhat like
+            4 = Very like
+
+            Specifically:
+            PB01 Speaks with warm voice
+            PB02 Does not help you
+            PB03 Lets you do things
+            PB04 Emotionally cold
+            PB05 Appears to understand
+            PB06 Is affectionate to you
+            PB07 Likes you to make decisions
+            PB08 Does not want you to grow up
+            PB09 Tries to control
+            PB10 Invades your privacy
+            PB11 Enjoys talking things over
+            PB12 Frequently smiles at you
+            PB13 Tends to baby you
+            PB14 Does not understand you
+            PB15 Lets you decide
+            PB16 Makes you feel not wanted
+            PB17 Can make you feel better
+            PB18 Does not talk to you much
+            PB19 Tries to make you dependent
+            PB20 Feels you can not look after self
+            PB21 Gives you as much freedom as you want
+            PB22 Lets you go out as often as you want
+            PB23 Is over-protective of you
+            PB24 Does not praise you
+            PB25 Lets you dress in any way
+
+BSI01 -     0 = Not at all                              Brief Symptom Inventory
+     BSI53  1 = A little bit                            Scale
+            2 = Moderately
+            3 = Quite a bit
+            4 = Extremely
+
+            Specifically:
+            BSI01 Nervousness or shakiness
+            BSI02 Faintness or dizziness
+            BSI03 Someone controls your thoughts
+            BSI04 Others are to blame for your trouble
+            BSI05 Trouble remembering things
+            BSI06 Feeling easily annoyed or irritated
+            BSI07 Pains in heart or chest
+            BSI08 Feeling afraid in open spaces
+            BSI09 Thoughts of ending your life
+            BSI10 Feeling that most people cannot be trusted
+            BSI11 Poor appetite
+            BSI12 Suddenly scared for no reason
+            BSI13 Temper outbursts you could not control
+            BSI14 Feeling lonely even when with people
+            BSI15 Feeling blocked in getting things done
+            BSI16 Feeling lonely
+            BSI17 Feeling blue
+            BSI18 Feeling no interest in things
+            BSI19 Feeling fearful
+            BSI20 Your feelings being easily hurt
+            BSI21 Feeling that people are unfriendly or dislike you
+            BSI22 Feeling inferior to others
+            BSI23 Nausea or upset stomach
+            BSI24 Feeling that you are watched or talked about
+            BSI25 Trouble falling asleep
+            BSI26 Having to check and double check what you do
+            BSI27 Difficulty in making decisions
+            BSI28 Feeling afraid to travel on buses, etc.
+            BSI29 Trouble getting your breath
+            BSI30 Hot or cold spells
+            BSI31 Having to avoid certain things because they frighten you
+            BSI32 Your mind going blank
+            BSI33 Numbness or tingling in parts of your body
+            BSI34 You should be punished for your sins
+            BSI35 Feeling hopeless about the future
+            BSI36 Trouble concentrating
+            BSI37 Feeling weak in parts of your body
+            BSI38 Feeling tense or keyed up
+            BSI39 Thoughts of death or dying
+            BSI40 Having urges to beat, injure or harm someone
+            BSI41 Having urges to break or smash things
+            BSI42 Feeling very self-conscious with others
+            BSI43 Feeling uneasy in crowds
+            BSI44 Never feeling close to another person
+            BSI45 Spells of terror or panic
+            BSI46 Getting into frequent arguments
+            BSI47 Feeling nervous when you are left alone
+            BSI48 Others not giving you proper credit for your achievements
+            BSI49 Feeling so restless you could not sit still
+            BSI50 Feelings of worthlessness
+            BSI51 Feeling people will take advantage of you if you let them
+            BSI52 Feelings of guilt
+            BSI53 Something is wrong with your mind
+
+
+
+
+Information on scales:
+-------------------------------------------------------------------------------
+
+Parental bonding scale, care subscale
+-------------------------------------
+mean of pb01 reverse(pb02) reverse(pb04) pb05 pb06 pb11 pb12
+reverse(pb14) reverse(pb16) pb17 reverse(pb18) reverse(pb24)
+
+Parental bonding scale, overprotection subscale
+-----------------------------------------------
+mean of reverse(pb03) reverse(pb07) pb08 pb09 pb10 pb13 reverse(pb15)
+pb19 pb20 reverse(pb21) reverse(pb22) pb23 reverse(pb25)
+
+
+Brief Symptom Inventory (BSI) scale, Overall
+--------------------------------------------
+mean of all items BSI01 - BSI53
+
+BSI Somatization subscale
+-------------------------
+mean of bsi02 bsi07 bsi23 bsi29 bsi30 bsi33 bsi37
+
+BSI Obsessive compulsive subscale
+---------------------------------
+mean of bsi05 bsi15 bsi26 bsi27 bsi32 bsi36
+
+BSI Interpersonal sensitivity subscale
+--------------------------------------
+mean of bsi20 bsi21 bsi22 bsi42
+
+BSI Depression subscale
+-----------------------
+mean of bsi09 bsi16 bsi17 bsi18 bsi35 bsi50
+
+BSI Anxiety subscale
+--------------------
+mean of bsi01 bsi12 bsi19 bsi38 bsi45 bsi49
+
+BSI Hostility subscale
+----------------------
+mean of bsi06 bsi13 bsi40 bsi41 bsi46
+
+BSI Phobic anxiety subscale
+---------------------------
+mean of bsi08 bsi28 bsi31 bsi43 bsi47
+
+BSI Paranoid ideation subscale
+------------------------------
+mean of bsi04 bsi10 bsi24 bsi48 bsi51
+
+BSI Psychoticism subscale
+-------------------------
+mean of bsi03 bsi14 bsi34 bsi44 bsi53

@@ -1,0 +1,37 @@
+Codebook for the lung cancer survival data (Surv.txt)
+
+Variable   Variable                   
+Name       Coding                       Description
+-------------------------------------------------------------------------------
+ID         1 to 401                     Identification number
+
+STAGET     0 = Small                    Tumor size
+           1 = Large
+           
+Stagen     0 = Early                    Stage of nodes
+           1 = Late
+           
+Hist       1 = Squamous cells           Histology
+           2 = Other types of cells              
+           
+Treat      0 = Saline (control)         Treatment
+           1 = BCG (experiment)
+           
+Perfbl     0 = Good                     Performance status at baseline
+           1 = Poor
+           
+Poinf      0 = No                       Post-operative infection
+           1 = Yes
+           
+Smokfu     1 = Smokers                  Smoking status at follow-up
+           2 = Ex-smokers
+           3 = Never smokers
+           
+Smokbl     1 = Smokers                  Smoking status at baseline
+           2 = Ex-smokers
+           3 = Never smokers
+
+Days       Continuous                   Length of observation time in days
+
+Death      0 = Alive (censored)         Length of observation time in days
+           1 = Dead

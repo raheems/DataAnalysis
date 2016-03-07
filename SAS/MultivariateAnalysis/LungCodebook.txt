@@ -1,0 +1,74 @@
+Codebook for the lung function data (Lung.txt)
+
+Variable   Variable                   
+Name       Coding                       Description
+-------------------------------------------------------------------------------
+ID         1 to 150                     Identification number
+
+AREA       1 = Burbank
+           2 = Lancaster
+           3 = Long Beach
+           4 = Glendora
+
+FSEX       1 = Male                     Gender, father
+
+FAGE       Continuous                   Age, father
+
+FHEIGHT    Continuous                   Height (inches), father
+
+FWEIGHT    Continuous                   Weight (lbs), father
+
+FFVC       Continuous                   FVC father
+
+FFEV1      Continuous                   FEV1 father
+
+MSEX       2 = Female                   Gender, mother
+
+MAGE       Continuous                   Age, father
+
+MHEIGHT    Continuous                   Height (inches), mother
+
+MWEIGHT    Continuous                   Weight (lbs), mother
+
+MFVC       Continuous                   FVC mother
+
+MFEV1      Continuous                   FEV1 mother
+
+OCSEX      1 = Male                     Sex, oldest child
+           2 = Female
+
+OCAGE      Continuous                   Age, oldest child
+
+OCHEIGHT   Continuous                   Height oldest child
+
+OCWEIGHT   Continuous                   Weight, oldest child
+
+OCFVC      Continuous                   FVC oldest child
+
+OCFEV1     Continuous                   FEV1 oldest child
+
+MCSEX      1 = Male                     Sex, middle child
+           2 = Female
+
+MCAGE      Continuous                   Age, middle child
+
+MCHEIGHT   Continuous                   Height, middle child
+
+MCWEIGHT   Continuous                   Weight, middle child
+
+MCFVC      Continuous                   FVC middle child
+
+MCFEV1     Continuous                   FEV1 middle child
+
+YCSEX      1 = Male                     Sex, youngest child
+           2 = Female       
+           
+YCAGE      Continuous                   Age, youngest child
+
+YCHEIGHT   Continuous                   Height, youngest child
+
+YCWEIGHT   Continuous                   Weight, youngest child
+
+YCFVC      Continuous                   FVC youngest child
+
+YCFEV1     Continuous                   FEV1 youngest child

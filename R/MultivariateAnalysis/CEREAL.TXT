@@ -1,0 +1,12 @@
+01 Life                     6 19 1 110   0
+02 Grape Nuts               3 23 0 100  25
+03 Super Sugar Crisp        2 26 0 110  25
+04 Special K                6 21 0 110  25
+05 Rice Krispies            2 25 0 110  25
+06 Raisin Bran              3 28 1 120  25
+07 Product 19               2 24 0 110 100
+08 Wheaties                 3 23 1 110  25
+09 Total                    3 23 1 110 100
+10 Puffed Rice              1 13 0  50   0
+11 Sugar Corn Pops          1 26 0 110  25
+12 Sugar Smacks             2 25 0 110  25
